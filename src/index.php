@@ -4,7 +4,7 @@ $host = 'db:/firebird/data/agenda.fdb';
 $user = 'SYSDBA';
 $password = 'masterkey';
 
-echo "<h1>Teste de Conexão - Agenda Telefônica</h1>";
+echo "<h1>Teste de Conexão - Agenda Telefônica - Mateus</h1>";
 
 try {
     $pdo = new PDO("firebird:dbname=$host", $user, $password);
