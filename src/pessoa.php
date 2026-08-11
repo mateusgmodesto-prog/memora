@@ -39,4 +39,4 @@ if ($metodo === 'DELETE') {
 }
 
 http_response_code(405);
-echo json_encode(['erro' => 'Metodo nao permitido']);
+echo json_encode(['erro' => 'Metodo nao permitido']);// Revisao do projeto WebDutos
